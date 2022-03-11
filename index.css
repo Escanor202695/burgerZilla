@@ -5,6 +5,7 @@
           box-sizing: border-box;
   font-family: "Jost", sans-serif;
   color: black;
+  scroll-behavior: smooth;
 }
 
 @-webkit-keyframes black_burger {

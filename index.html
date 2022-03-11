@@ -7,6 +7,7 @@
     <link href="index.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://use.fontawesome.com/59f9d087bd.js"></script>
+    <script src="app.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
@@ -33,11 +34,11 @@
                     <img src="./pics/logoWhite.png"/>
                 </div>
                 <div class="header_opt">
-                    <p>HOME</p>
-                    <p>ABOUT</p>
-                    <p>OFFERS</p>
-                    <p>MENU</p>
-                    <p>CONTACT</p>
+                    <p onclick="view('.header_pc')">HOME</p>
+                    <p onclick="view('.floating-food')">ABOUT</p>
+                    <p onclick="view('.special_offer')">OFFERS</p>
+                    <p onclick="view('.trending_burgers')">MENU</p>
+                    <p onclick="view('.address')">CONTACT</p>
                     <p class="material-icons-outlined cart">
                         shopping_cart
                     </p>
